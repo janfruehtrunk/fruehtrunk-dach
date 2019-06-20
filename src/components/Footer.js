@@ -16,17 +16,11 @@ function Footer(props) {
       {...props}
     >
       <Flex as="nav" flexWrap="wrap">
-        <Link mr={2} to="/impressum">
+        <Link mr={2} to="/impressum" color="blue">
           <Text fontSize={fontSize}>Impressum</Text>
         </Link>
-        <Link mr={2} to="/datenschutz">
-          <Text fontSize={fontSize}>Datenschutz</Text>
-        </Link>
-        <Link to="/agb">
-          <Text fontSize={fontSize}>AGB</Text>
-        </Link>
       </Flex>
-      <Text color="silver" textAlign="right" fontSize={fontSize}>© frühtrunkdach.de {new Date().getFullYear()}</Text>
+      <Text color="silver" textAlign="right" fontSize={fontSize}>© fruehtrunk-dach.de {new Date().getFullYear()}</Text>
     </Flex>
   )
 }

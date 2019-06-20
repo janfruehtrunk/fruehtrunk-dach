@@ -33,7 +33,7 @@ const Header = ({ siteTitle, isSubPage, ...props }) => (
             mb={4}
             flexDirection={["row", "column"]}
           >
-            <MenuItem to="/ueber-mich/">Über mich</MenuItem>
+            <MenuItem to="/ueber-uns/">Über uns</MenuItem>
             <MenuItem to="/leistungen/">Leistungen</MenuItem>
             <MenuItem to="/referenzen/">Referenzen</MenuItem>
             <MenuItem to="/kontakt/">Kontakt</MenuItem>

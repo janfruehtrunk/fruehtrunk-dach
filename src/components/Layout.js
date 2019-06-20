@@ -41,7 +41,7 @@ const Layout = ({ children, isSubPage = true }) => (
             isSubPage={isSubPage}
             flex={!isSubPage && "1 0 auto"}
           />
-          <Box as="main" flex={isSubPage && "1 0 auto"}>
+          <Box as="main" flex={isSubPage && "1 0 auto"} p={3}>
             {children}
           </Box>
           <Footer />
