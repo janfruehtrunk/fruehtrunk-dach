@@ -18,7 +18,6 @@ const SecondPage = () => (
     <Text as="p">
       Gerne stehen wir für eine Beratung zur verfügung.
     </Text>
-
   </Layout>
 )
 
