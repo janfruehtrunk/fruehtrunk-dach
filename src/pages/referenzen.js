@@ -9,13 +9,31 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Referenzen" />
     <Text as="h1">Referenzen</Text>
-    <Text as="p">
-      Dachrinnenreinigung
-    </Text>
     <StaticQuery
       query={graphql`
         query {
-          placeholderImage: file(relativePath: { eq: "referenz-1.png" }) {
+          placeholderImage1: file(relativePath: { eq: "referenz-1.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          placeholderImage2: file(relativePath: { eq: "referenz-2.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          placeholderImage3: file(relativePath: { eq: "referenz-3.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          placeholderImage4: file(relativePath: { eq: "referenz-4.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 300) {
                 ...GatsbyImageSharpFluid
@@ -25,64 +43,16 @@ const SecondPage = () => (
         }
       `}
       render={data => (
-        <Image fluid={data.placeholderImage.childImageSharp.fluid} />
-      )}
-    />
-    <Text as="p">
-      Abdichtung mit Flüssigkunststoff
-    </Text>
-    <StaticQuery
-      query={graphql`
-        query {
-          placeholderImage: file(relativePath: { eq: "referenz-3.JPG" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Image fluid={data.placeholderImage.childImageSharp.fluid} />
-      )}
-    />
-    <Text as="p">
-      Ausbesserung eines Turmdaches
-    </Text>
-    <StaticQuery
-      query={graphql`
-        query {
-          placeholderImage: file(relativePath: { eq: "referenz-2.JPG" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Image fluid={data.placeholderImage.childImageSharp.fluid} />
-      )}
-    />
-    <Text as="p">
-      Terassensanierung 
-    </Text>
-    <StaticQuery
-      query={graphql`
-        query {
-          placeholderImage: file(relativePath: { eq: "referenz-4.JPG" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Image fluid={data.placeholderImage.childImageSharp.fluid} />
+        <>
+          <Image fluid={data.placeholderImage1.childImageSharp.fluid} />
+          <Text as="p">Dachrinnenreinigung</Text>
+          <Image fluid={data.placeholderImage2.childImageSharp.fluid} />
+          <Text as="p">Abdichtung mit Flüssigkunststoff</Text>
+          <Image fluid={data.placeholderImage3.childImageSharp.fluid} />
+          <Text as="p">Ausbesserung eines Turmdaches</Text>
+          <Image fluid={data.placeholderImage4.childImageSharp.fluid} />
+          <Text as="p">Terassensanierung</Text>
+        </>
       )}
     />
   </Layout>

@@ -18,7 +18,7 @@ import Footer from "./Footer"
 
 import "./layout.css"
 
-const Layout = ({ children, isSubPage = true }) => (
+const Layout = ({ children, isSubPage = true, padding = 3 }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -41,7 +41,7 @@ const Layout = ({ children, isSubPage = true }) => (
             isSubPage={isSubPage}
             flex={!isSubPage && "1 0 auto"}
           />
-          <Box as="main" flex={isSubPage && "1 0 auto"} p={3}>
+          <Box as="main" flex={isSubPage && "1 0 auto"} p={padding}>
             {children}
           </Box>
           <Footer />
