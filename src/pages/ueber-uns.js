@@ -13,7 +13,7 @@ const SecondPage = () => (
       Frühtrunk Dach
     </Text>
     <Text as="p">
-      ist ein junges, aufstrebenes und motiviertes Unternhemen, dessen Inhaber
+      ist ein junges, aufstrebendes und motiviertes Unternehmen, dessen Inhaber
       eine bereits 15 jährige Berufserfahrung in Berlin, Hamburg, Wien und
       London vorzuweisen hat.
     </Text>
