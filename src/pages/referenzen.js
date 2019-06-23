@@ -47,9 +47,9 @@ const SecondPage = () => (
           <Image fluid={data.placeholderImage1.childImageSharp.fluid} />
           <Text as="p">Dachrinnenreinigung</Text>
           <Image fluid={data.placeholderImage2.childImageSharp.fluid} />
-          <Text as="p">Abdichtung mit Flüssigkunststoff</Text>
+          <Text as="p">Eindeckung eines Turmdaches</Text>
           <Image fluid={data.placeholderImage3.childImageSharp.fluid} />
-          <Text as="p">Ausbesserung eines Turmdaches</Text>
+          <Text as="p">Abdichtung mit Flüssigkunststoff</Text>
           <Image fluid={data.placeholderImage4.childImageSharp.fluid} />
           <Text as="p">Terassensanierung</Text>
         </>
