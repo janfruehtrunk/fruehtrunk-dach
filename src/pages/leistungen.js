@@ -8,15 +8,15 @@ const SecondPage = () => (
     <SEO title="Leistungen" />
     <Text as="h1">Leistungen</Text>
     <Text as="p">
-      Unser Fachgebiet sind Reperaturen und Wartungen aller Dächer,
+      Unser Fachgebiet sind Reparaturen und Wartungen aller Dächer,
       Bauklempnerreien und Holzkonstruktionen am Dach.
     </Text>
     <Text as="p">
-      Profitieren Sie von einem Komplettservice, mit einer regelmäßiger Wartung
+      Profitieren Sie von einem Komplettservice, mit regelmäßiger Wartung
       und Rinnenreinigung für Ihre Objekte im ganzen Bundesgebiet.
     </Text>
     <Text as="p">
-      Gerne stehen wir für eine Beratung zur verfügung.
+      Gerne stehen wir für eine Beratung zur Verfügung.
     </Text>
   </Layout>
 )
