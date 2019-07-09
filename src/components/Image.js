@@ -14,10 +14,10 @@ import { height, borderRadius } from "styled-system"
  */
 
 const Image = styled(Img)(
-  {
-    maxWidth: "100%",
+  ({ maxWidth }) => ({
+    maxWidth: maxWidth || "100%",
     height: "auto",
-  },
+  }),
   height,
   borderRadius
 )
