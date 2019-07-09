@@ -16,10 +16,11 @@ function Logo({ siteTitle, ...props }) {
       <Box
         as="svg"
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
+        width="30px"
         viewBox="0 0 30 10"
+        pb={3}
       >
-        <p
+        <path
           d="M 1 7 l 14 -5 l 14 5"
           stroke="currentColor"
           strokeWidth="2"
@@ -27,7 +28,7 @@ function Logo({ siteTitle, ...props }) {
           fill="transparent"
         />
       </Box>
-      <Text fontSize={[2, 3, 4]} textAlign="center">
+      <Text fontSize={[2, 3, 3]} textAlign="center">
         FRÜHTRUNK <br /> DACH
       </Text>
     </InlineFlex>
