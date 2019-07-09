@@ -28,7 +28,6 @@ const Header = ({ siteTitle, isSubPage, ...props }) => (
         <Dach>
           <Menu
             justifyContent="space-around"
-            alignSelf="center"
             order={[2, 1]}
             mb={4}
             flexDirection={["row", "column"]}
