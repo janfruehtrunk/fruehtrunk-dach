@@ -10,12 +10,9 @@ const SecondPage = () => (
     <SEO title="Über mich" />
     <Text as="h1">Über uns</Text>
     <Text as="h2" fontSize={1}>
-      Frühtrunk Dach
-    </Text>
-    <Text as="p">
-      ist ein junges, aufstrebendes und motiviertes Unternehmen, dessen Inhaber
-      eine bereits 15 jährige Berufserfahrung in Berlin, Hamburg, Wien und
-      London vorzuweisen hat.
+      Wir von Frühtrunk-Dach sind Ihr zuverlässiger Partner für Dachdeckerarbeiten
+      und Bauklempnerein, dass sich durch unser junges, professionelles und 
+      motiviertes Team auszeichnet.
     </Text>
     <Text as="h3" fontSize={1}>
       Inhaber
