@@ -9,7 +9,7 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Über mich" />
     <Text as="h1">Über uns</Text>
-    <Text as="h2" fontSize={1}>
+    <Text>
       Wir von Frühtrunk-Dach sind Ihr zuverlässiger Partner für Dachdeckerarbeiten
       und Bauklempnerein, dass sich durch unser junges, professionelles und 
       motiviertes Team auszeichnet.
