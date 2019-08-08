@@ -9,9 +9,9 @@ const SecondPage = () => (
     <p>
       <strong>Frühtrunk Dach</strong>
       <br />
-      Unter den Eichen 126,
+      Hinter der Bahn 14,
       <br />
-      12203 Berlin
+      21435 Stelle
     </p>
   </Layout>
 )
