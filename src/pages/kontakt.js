@@ -9,11 +9,11 @@ const SecondPage = () => (
     <Text as="h1">Kontakt</Text>
     <Text as="p">
       <strong>Telefon: </strong>
-      <a href="tel: +49 1789 153 507">+49 1789 153 507</a>
+      <a href="tel: +43 681 101 23 773">+43 681 101 23 773</a>
     </Text>
     <Text as="p">
       <strong>Email: </strong>
-      <a href="mailto: info@fruehtrunk-dach.de">info@fruehtrunk-dach.de</a>
+      <a href="mailto: info@fruehtrunk-dach.at">info@fruehtrunk-dach.at</a>
     </Text>
   </Layout>
 )
