@@ -1,6 +1,6 @@
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
-import { height, borderRadius } from "styled-system"
+import { width, height, borderRadius } from "styled-system"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -18,6 +18,7 @@ const Image = styled(Img)(
     maxWidth: maxWidth || "100%",
     height: "auto",
   }),
+  width,
   height,
   borderRadius
 )

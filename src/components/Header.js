@@ -39,9 +39,6 @@ const Header = ({ siteTitle, isSubPage, ...props }) => (
           </Menu>
         </Dach>
         <Logo
-          bg="white-50"
-          px={4}
-          py={3}
           mb={4}
           alignSelf={["center", "flex-start"]}
           order={[1, 2]}

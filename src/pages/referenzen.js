@@ -44,6 +44,20 @@ const SecondPage = () => (
               }
             }
           }
+          placeholderImage5: file(relativePath: { eq: "referenz-5.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          placeholderImage6: file(relativePath: { eq: "referenz-6.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       `}
       render={data => (
@@ -78,6 +92,20 @@ const SecondPage = () => (
                 maxWidth="400px"
               />
               <Text as="p">Terassensanierung</Text>
+            </Column>
+          </Row>
+          <Row flexDirection={['column', 'row']}>
+            <Column width={[1, 1/2]}>
+              <Image
+                fluid={data.placeholderImage5.childImageSharp.fluid}
+                maxWidth="400px"
+              />
+            </Column>
+            <Column width={[1, 1/2]}>
+              <Image
+                fluid={data.placeholderImage6.childImageSharp.fluid}
+                maxWidth="400px"
+              />
             </Column>
           </Row>
         </>

@@ -20,7 +20,7 @@ function Footer(props) {
           <Text fontSize={fontSize}>Impressum</Text>
         </Link>
       </Flex>
-      <Text color="silver" textAlign="right" fontSize={fontSize}>© fruehtrunk-dach.de {new Date().getFullYear()}</Text>
+      <Text color="silver" textAlign="right" fontSize={fontSize}>© fruehtrunk-dach.at {new Date().getFullYear()}</Text>
     </Flex>
   )
 }
