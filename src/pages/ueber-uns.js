@@ -10,12 +10,11 @@ const SecondPage = () => (
     <SEO title="Über mich" />
     <Text as="h1">Über uns</Text>
     <Text>
-      Wir von Frühtrunk-Dach sind Ihr zuverlässiger Partner für Dachdeckerarbeiten,
-      das sich durch unser junges, professionelles und 
-      motiviertes Team auszeichnet.
+    Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht.
+    Inhaber und Gründer Dachdeckermeister Jan Frühtrunk zeichnet sich durch seine langjährige Berufserfahrung 
+    in England, Deutschland und Österreich aus. 
     </Text>
     <Text as="h3" fontSize={1}>
-      Inhaber
     </Text>
     <Text as="p">Jan Frühtrunk</Text>
     <StaticQuery
