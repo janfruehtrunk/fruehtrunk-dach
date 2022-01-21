@@ -30,7 +30,7 @@ function Logo({ siteTitle, ...props }) {
             color="black"
           >
             {
-              true ?
+              false ?
                 <>
                   <Box
                     as="svg"
