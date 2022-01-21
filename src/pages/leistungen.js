@@ -8,15 +8,27 @@ const SecondPage = () => (
     <SEO title="Leistungen" />
     <Text as="h1">Leistungen</Text>
     <Text as="p">
-      Unser Fachgebiet sind Reparaturen und Wartungen aller Dächer,
-      Bauklempnerreien und Holzkonstruktionen am Dach.
+     Steildach
+     Flachdach
+     Fassade
     </Text>
     <Text as="p">
-      Profitieren Sie von einem Komplettservice, mit regelmäßiger Wartung
-      und Rinnenreinigung für Ihre Objekte im ganzen Bundesgebiet.
+     Neubau
+     Umbau 
+     Reparatur
+     Dachüberprüfung
+     Dachfenstereinbau
+     Flachdachabdichtungen
+     Wärmedämmung
     </Text>
     <Text as="p">
-      Gerne stehen wir für eine Beratung zur Verfügung.
+     Schiefer
+     Eternit
+     Ziegel
+     Betondachstein
+    </Text>
+    <Text as="p">
+     Gerne stehen wir für eine Beratung zur Verfügung.
     </Text>
   </Layout>
 )
