@@ -1,0 +1,20 @@
+name: Build and Deploy
+on:
+  push:
+    branches: master
+jobs:
+  build-and-deploy:
+    name: Build and deploy Gatsby site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Install Project Dependencies
+        run: npm ci
+
+      - name: Deploy
+        run: npm run deploy
+
+      - name: Verify build
+        run: ls -la public
