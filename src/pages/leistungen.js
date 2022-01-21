@@ -1,5 +1,5 @@
 import React from "react"
-import { Text } from "@rebass/emotion"
+import { Flex, Text } from "@rebass/emotion"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 
@@ -7,28 +7,37 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Leistungen" />
     <Text as="h1">Leistungen</Text>
+    <Flex justifyContent="space-between">
+
+      <Flex flexDirection="column">
+        <Text as="p">
+          Steildach <br />
+          Flachdach<br />
+          Fassade<br />
+        </Text>
+        <Text as="p">
+          Neubau<br />
+          Umbau <br />
+          Reparatur<br />
+          Dachüberprüfung<br />
+          Dachfenstereinbau<br />
+          Flachdachabdichtungen<br />
+          Wärmedämmung
+        </Text>
+      </Flex>
+
+      <Flex marginRight="25px">
+        <Text as="p">
+          Schiefer<br />
+          Eternit<br />
+          Ziegel<br />
+          Betondachstein
+        </Text>
+      </Flex>
+
+    </Flex>
     <Text as="p">
-     Steildach
-     Flachdach
-     Fassade
-    </Text>
-    <Text as="p">
-     Neubau
-     Umbau 
-     Reparatur
-     Dachüberprüfung
-     Dachfenstereinbau
-     Flachdachabdichtungen
-     Wärmedämmung
-    </Text>
-    <Text as="p">
-     Schiefer
-     Eternit
-     Ziegel
-     Betondachstein
-    </Text>
-    <Text as="p">
-     Gerne stehen wir für eine Beratung zur Verfügung.
+      Gerne stehen wir für eine Beratung zur Verfügung.
     </Text>
   </Layout>
 )

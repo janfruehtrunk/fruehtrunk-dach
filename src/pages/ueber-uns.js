@@ -10,12 +10,12 @@ const SecondPage = () => (
     <SEO title="Über mich" />
     <Text as="h1">Über uns</Text>
     <Text>
-    Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht.
-    Inhaber und Gründer Dachdeckermeister Jan Frühtrunk zeichnet sich durch seine langjährige Berufserfahrung 
-    in England, Deutschland und Österreich aus. 
+      <Text as="p">Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht.</Text>
+      Inhaber und Gründer Dachdeckermeister Jan Frühtrunk zeichnet sich durch
+      seine langjährige Berufserfahrung in England, Deutschland und Österreich
+      aus.
     </Text>
-    <Text as="h3" fontSize={1}>
-    </Text>
+    <Text as="h3" fontSize={1}></Text>
     <Text as="p">Jan Frühtrunk</Text>
     <StaticQuery
       query={graphql`
@@ -29,7 +29,7 @@ const SecondPage = () => (
           }
         }
       `}
-      render={data => <Image fixed={data.file.childImageSharp.fixed} />}
+      render={(data) => <Image fixed={data.file.childImageSharp.fixed} />}
     />
   </Layout>
 )
