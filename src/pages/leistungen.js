@@ -23,6 +23,7 @@ const SecondPage = () => (
           Dachfenstereinbau<br />
           Flachdachabdichtungen<br />
           Wärmedämmung
+          Reparatur von Blechdächer
         </Text>
       </Flex>
 
