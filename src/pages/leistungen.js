@@ -27,7 +27,7 @@ const SecondPage = () => (
         </Text>
       </Flex>
 
-      <Flex marginRight="35px">
+      <Flex marginRight="45px">
         <Text as="p">
           Schiefer<br />
           Eternit<br />
