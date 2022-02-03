@@ -9,7 +9,9 @@ const SecondPage = () => (
     <p>
       <strong>Frühtrunk Dach</strong><br />
       Wiedner Hauptstraße 65<br />
-      1040 Wien<br />
+      1040 Wien<br /></Text>
+  <Text as="p">
+      UID: ATU77757303<br />
     </p>
   </Layout>
 )
