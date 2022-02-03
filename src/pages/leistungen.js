@@ -38,7 +38,7 @@ const SecondPage = () => (
 
     </Flex>
     <Text as="p">
-      Gerne stehen wir für eine Beratung zur Verfügung</strong>
+      <strong>Gerne stehen wir für eine Beratung zur Verfügung</strong><br />
     </Text>
   </Layout>
 )
