@@ -8,10 +8,8 @@ const SecondPage = () => (
     <h1>Impressum</h1>
     <p>
       <strong>Frühtrunk Dach</strong>
-      <br />
-     
-      <br />
-      Wien
+      Wiedner Hauptstraße 65<br />
+      1040 Wien<br />
     </p>
   </Layout>
 )
