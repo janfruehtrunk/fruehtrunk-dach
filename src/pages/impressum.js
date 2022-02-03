@@ -6,14 +6,12 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
     <h1>Impressum</h1>
-    <p>
+    <Text as="p">
       <strong>Frühtrunk Dach</strong><br />
       Wiedner Hauptstraße 65<br />
       1040 Wien<br />
-    </Text>
-    <Text as="p">
       UID: ATU77757303<br />
-    </p>
+    </Text>
   </Layout>
 )
 
