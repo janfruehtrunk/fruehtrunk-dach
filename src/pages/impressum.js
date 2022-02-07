@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Text } from "@rebass/emotion"
 import SEO from "../components/Seo"
 
 const SecondPage = () => (
