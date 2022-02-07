@@ -11,7 +11,6 @@ const SecondPage = () => (
       Wiedner Hauptstraße 65<br />
       1040 Wien<br />
       UID: ATU77757303<br />
-    "</p>
     </Text>
   </Layout>
 )
