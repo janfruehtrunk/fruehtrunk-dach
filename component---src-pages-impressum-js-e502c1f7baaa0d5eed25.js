@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2kb:function(b,t,e){"use strict";e.r(t);e("q1tI");var n=e("7oih"),l=e("9CUm"),u=e("qKvR");t.default=function(){return Object(u.b)(n.a,null,Object(u.b)(l.a,{title:"Page two"}),Object(u.b)("h1",null,"Impressum"),Object(u.b)("p",null,Object(u.b)("strong",null,"Frühtrunk Dach"),Object(u.b)("br",null),"Wiedner Hauptstraße 65",Object(u.b)("br",null),"1040 Wien",Object(u.b)("br",null)))}}}]);
-//# sourceMappingURL=component---src-pages-impressum-js-e502c1f7baaa0d5eed25.js.map
