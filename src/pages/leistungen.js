@@ -18,12 +18,12 @@ const SecondPage = () => (
         <Text as="p">
           Neubau<br />
           Umbau <br />
-          Reparatur<br />
+          Reparatur/Wartung<br />
           Dachüberprüfung<br />
           Dachfenstereinbau<br />
           Flachdachabdichtungen<br />
           Wärmedämmung<br />
-          Reparatur von Blechdächer<br />
+          Rinnenreinigung<br />
         </Text>
       </Flex>
 
