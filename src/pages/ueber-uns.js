@@ -11,7 +11,7 @@ const SecondPage = () => (
     <Text as="h1">Über uns</Text>
     <Text>
       <Text as="p">Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht in Wien und Umgebung.</Text>
-      Inhaber und Gründer Dachdeckermeister Jan Frühtrunk zeichnet sich durch
+      Inhaber und Gründer Dachdeckermeister und Spengler Jan Frühtrunk zeichnet sich durch
       seine langjährige Berufserfahrung in England, Deutschland und Österreich
       aus.
     </Text>
