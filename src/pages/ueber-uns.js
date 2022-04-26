@@ -11,7 +11,7 @@ const SecondPage = () => (
     <Text as="h1">Über uns</Text>
     <Text>
       <Text as="p">Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht.</Text>
-      Dachdeckermeister und Spengler Jan Frühtrunk zeichnet sich durch
+      Dachdeckermeister und Spengler Jan Frühtrunk zeichnet sich mit
       über 15 Jahren Berufserfahrung in England, Deutschland und Österreich
       aus. 
     </Text>
