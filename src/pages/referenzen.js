@@ -115,13 +115,13 @@ const SecondPage = () => (
               />
             </Column>
           </Row>
-          <Row flexDirection={['column', 'row']}>
-            <Column width={[1]}>
-              <Text as="p">Dachsanierung</Text>
+          <Row flexDirection={['column', 'row']} mt={4}>
+            <Box width={[1, 1/2]} px={3} >
               <Image
                 fluid={data.placeholderImage7.childImageSharp.fluid}
               />
-            </Column>
+              <Text as="p">Dachsanierung</Text>
+            </Box>
           </Row>
         </>
       )}
