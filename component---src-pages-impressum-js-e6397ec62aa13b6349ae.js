@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2kb:function(b,t,n){"use strict";n.r(t);n("q1tI");var e=n("7oih"),l=n("9CUm"),u=n("qKvR");t.default=function(){return Object(u.b)(e.a,null,Object(u.b)(l.a,{title:"Page two"}),Object(u.b)("h1",null,"Impressum"),Object(u.b)("p",null,Object(u.b)("strong",null,"Frühtrunk Dach"),Object(u.b)("br",null),Object(u.b)("br",null),"Wien"))}}}]);
+//# sourceMappingURL=component---src-pages-impressum-js-e6397ec62aa13b6349ae.js.map
