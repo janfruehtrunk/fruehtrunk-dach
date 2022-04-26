@@ -9,6 +9,7 @@ const SecondPage = () => (
     <h1>Impressum</h1>
     <Text as="p">
       <strong>Frühtrunk Dach</strong><br />
+      Jan Frühtrunk<br />
       Wiedner Hauptstraße 65<br />
       1040 Wien<br />
       UID: ATU77757303<br />
