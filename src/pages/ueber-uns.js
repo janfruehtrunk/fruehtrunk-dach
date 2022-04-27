@@ -13,7 +13,7 @@ const SecondPage = () => (
       <Text as="p">Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht.</Text>
       Dachdeckermeister und Spengler Jan Frühtrunk zeichnet sich mit
       über 15 Jahren Berufserfahrung in England, Deutschland und Österreich
-      aus. Ob Einfamilienhaus, Gemeindebau, U-Bahndach, Schloß oder Kirche - Frühtrunk Dach bringt die nötige Erfahrung mit
+      aus. Ob Einfamilienhaus, Villa, Zinshaus oder Kirche - Frühtrunk Dach bringt die nötige Erfahrung mit
      .
     </Text>
     <Text as="h3" fontSize={1}></Text>
