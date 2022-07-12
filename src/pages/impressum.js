@@ -12,8 +12,8 @@ const SecondPage = () => (
       Jan Frühtrunk<br />
       Wiedner Hauptstraße 65<br />
       1040 Wien<br />
-      UID: ATU77757303</Text>
-      Mitglied der WKO Landesinnung Dachdecker, Glaser und Spengler</Text>
+      UID: ATU77757303<br />
+      Mitglied der WKO Landesinnung Dachdecker, Glaser und Spengler<br />
       Gerichtsstand Wien<br />
     </Text>
   </Layout>
