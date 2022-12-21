@@ -65,6 +65,13 @@ const SecondPage = () => (
               }
             }
           }
+          placeholderImage8: file(relativePath: { eq: "referenz-8.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       `}
       render={data => (
@@ -116,12 +123,20 @@ const SecondPage = () => (
             </Column>
           </Row>
           <Row flexDirection={['column', 'row']} mt={4}>
-            <Box width={[1, 1/2]} px={3} >
+            <Column width={[1, 1/2]}>
               <Image
                 fluid={data.placeholderImage7.childImageSharp.fluid}
+                maxWidth="400px"
               />
               <Text as="p">Dachsanierung Wohngebäude</Text>
-            </Box>
+            </Column>
+            <Column width={[1, 1/2]}>
+              <Image
+                fluid={data.placeholderImage8.childImageSharp.fluid}
+                maxWidth="400px"
+              />
+              <Text as="p">Dachsanierung Presshaus</Text>
+            </Column>
           </Row>
         </>
       )}
