@@ -24,6 +24,7 @@ const SecondPage = () => (
           Flachdachabdichtungen<br />
           Wärmedämmung verlegen<br />
           Rinnenreinigung<br />
+          Organisation von alten Dachziegeln<br />
         </Text>
       </Flex>
 
