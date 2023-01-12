@@ -16,13 +16,13 @@ const SecondPage = () => (
           Fassade<br />
         </Text>
         <Text as="p">
-          Neubau<br />
-          Umdeckungen/Dachsanierungen <br />
-          Reparatur/Wartung von Dächern<br />
-          Dachüberprüfung<br />
+          Neudeckungen<br />
+          Dachsanierungen <br />
+          Reparaturen von Dächern<br />
+          Dachüberprüfungen<br />
           Dachfenstereinbau<br />
           Flachdachabdichtungen<br />
-          Wärmedämmung<br />
+          Wärmedämmung verlegen<br />
           Rinnenreinigung<br />
         </Text>
       </Flex>
