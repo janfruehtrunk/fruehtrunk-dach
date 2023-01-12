@@ -17,8 +17,8 @@ const SecondPage = () => (
         </Text>
         <Text as="p">
           Neubau<br />
-          Umbau <br />
-          Reparatur/Wartung<br />
+          Umdeckungen/Dachsanierungen <br />
+          Reparatur/Wartung von Dächern<br />
           Dachüberprüfung<br />
           Dachfenstereinbau<br />
           Flachdachabdichtungen<br />
@@ -30,8 +30,8 @@ const SecondPage = () => (
       <Flex marginRight="45px">
         <Text as="p">
           Schiefer<br />
-          Eternit<br />
-          Ziegel<br />
+          Faserzementplatten<br />
+          Dachziegeln<br />
           Betondachstein
         </Text>
       </Flex>
