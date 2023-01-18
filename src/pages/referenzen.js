@@ -89,7 +89,7 @@ const SecondPage = () => (
                 fluid={data.placeholderImage2.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Eindeckung eines Turmdaches</Text>
+              <Text as="p">Terassensanierung nach Wasserschaden</Text>
             </Column>
           </Row>
           <Row flexDirection={['column', 'row']}>
@@ -98,14 +98,14 @@ const SecondPage = () => (
                 fluid={data.placeholderImage3.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Abdichtung</Text>
+              <Text as="p">Reparatur eines alten Daches</Text>
             </Column>
             <Column width={[1, 1/2]}>
               <Image
                 fluid={data.placeholderImage4.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Terassensanierung nach Wasserschaden</Text>
+              <Text as="p">Reparatur eines alten Daches</Text>
             </Column>
           </Row>
           <Row flexDirection={['column', 'row']}>
