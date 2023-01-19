@@ -98,7 +98,7 @@ const SecondPage = () => (
                 fluid={data.placeholderImage3.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">alter Bestand</Text>
+              <Text as="p">Alter Bestand</Text>
             </Column>
             <Column width={[1, 1/2]}>
               <Image
