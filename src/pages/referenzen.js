@@ -98,14 +98,14 @@ const SecondPage = () => (
                 fluid={data.placeholderImage3.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Reparatur eines alten Daches</Text>
+              <Text as="p">alter Bestand</Text>
             </Column>
             <Column width={[1, 1/2]}>
               <Image
                 fluid={data.placeholderImage4.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Reparatur eines alten Daches</Text>
+              <Text as="p">Organisieren und Einbauen von alten Dachziegeln</Text>
             </Column>
           </Row>
           <Row flexDirection={['column', 'row']}>
