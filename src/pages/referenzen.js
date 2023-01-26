@@ -128,14 +128,14 @@ const SecondPage = () => (
                 fluid={data.placeholderImage7.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Dachsanierung Wohngebäude</Text>
+              <Text as="p">Dachsanierung Wohngebäude mit Wiener Norma</Text>
             </Column>
             <Column width={[1, 1/2]}>
               <Image
                 fluid={data.placeholderImage8.childImageSharp.fluid}
                 maxWidth="400px"
               />
-              <Text as="p">Dachsanierung Presshaus</Text>
+              <Text as="p">Dachsanierung Presshaus mit Taschen gerundet</Text>
             </Column>
           </Row>
         </>
