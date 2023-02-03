@@ -19,9 +19,9 @@ const SecondPage = () => (
           Neudeckungen<br />
           Dachsanierungen <br />
           Reparaturen von Dächern<br />
-          Dachüberprüfungen<br />
-          Dachfenstereinbau<br />
-          Flachdachabdichtungen<br />
+          Überprüfung und Wartung <br />
+          Einbau von Dachfenster<br />
+          Abdichtungen<br />
           Wärmedämmung verlegen<br />
           Rinnenreinigung<br />
           Organisation von alten Dachziegeln<br />
