@@ -9,7 +9,7 @@ const SecondPage = () => (
     <h1>Impressum</h1>
     <Text as="p">
       <strong>Frühtrunk Dach</strong><br />
-      Jan Frühtrunk<br />
+      Inh. Jan Frühtrunk<br />
       Franzensgasse 11/1<br />
       1050 Wien<br />
       UID: ATU77757303<br /><br />
