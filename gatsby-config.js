@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: `Fruehtrunk Dach`,
-    description: `Ihr Dachdecker`,
-    author: `Samuel Hobl`,
+    title: `Fruehtrunk Dach, Dachdecker im 5. Bezirk / Margareten, Wien`,
+    description: `Frühtrunk-Dach ist Ihr Partner, wenn es um das Dach geht. Dachdeckermeister und Spengler Jan Frühtrunk zeichnet sich mit über 15 Jahren Berufserfahrung in England, Deutschland und Österreich aus. Ob Einfamilienhaus, Villa, Zinshaus oder Kirche - Frühtrunk Dach bringt die nötige Erfahrung mit.`,
+    author: `Jan Frühtrunk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -39,3 +39,4 @@ module.exports = {
     },
   ],
 }
+
