@@ -18,7 +18,7 @@ const SecondPage = () => (
         <Text as="p">
           Neudeckungen<br />
           Dachsanierungen <br />
-          Asbestsanierung
+          Asbestsanierung<br />
           Reparaturen von Dächern<br />
           Überprüfung und Wartung<br />
           Gründächer<br />
