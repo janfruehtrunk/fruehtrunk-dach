@@ -35,7 +35,7 @@ const SecondPage = () => (
       <Flex marginRight="45px">
         <Text as="p">
           Schiefer<br />
-          Faserzementplatten<br />
+          Eternit Faserzementplatten<br />
           Dachziegeln<br />
           Betondachstein
         </Text>
