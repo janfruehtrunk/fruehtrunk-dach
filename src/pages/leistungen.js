@@ -18,13 +18,17 @@ const SecondPage = () => (
         <Text as="p">
           Neudeckungen<br />
           Dachsanierungen <br />
+          Asbestsanierung
           Reparaturen von Dächern<br />
-          Überprüfung und Wartung <br />
+          Überprüfung und Wartung<br />
+          Gründächer<br />
           Einbau von Dachfenster<br />
+          Hitzeschutz<br />
+          Sturmschaden<br />
           Abdichtungen<br />
           Wärmedämmung verlegen<br />
           Rinnenreinigung<br />
-          Organisation von alten Dachziegeln<br />
+          <br />
         </Text>
       </Flex>
 
