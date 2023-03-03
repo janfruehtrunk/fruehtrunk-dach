@@ -37,7 +37,7 @@ const SecondPage = () => (
           Schiefer<br />
           Eternit Faserzementplatten<br />
           Dachziegeln<br />
-          Betondachstein
+          Betondachstein<br />
         </Text>
       </Flex>
 
