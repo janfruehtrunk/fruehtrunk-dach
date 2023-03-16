@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{RXBc:function(t,a,e){"use strict";e.r(a);e("q1tI");var i=e("7oih"),n=e("9CUm"),c=e("qKvR");a.default=function(){return Object(c.b)(i.a,{isSubPage:!1,padding:0},Object(c.b)(n.a,{title:"Home",keywords:["gatsby","application","react"]}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-e80a303eef0934cf04c8.js.map
