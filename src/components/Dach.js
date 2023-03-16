@@ -1,5 +1,5 @@
 import React from "react"
-import { css } from "emotion"
+import { css } from "@emotion/css"
 
 const Dach = ({ children, ...props }) => {
   return React.cloneElement(React.Children.only(children), {
