@@ -20,6 +20,7 @@
     "gatsby-transformer-sharp": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.0",
+    "react-before-after-slider-component": "^1.1.6",
     "react-dom": "^17.0.0",
     "react-helmet": "^5.2.1",
     "styled-system": "^4.2.1"

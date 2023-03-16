@@ -1,4 +1,6 @@
 import React from "react"
+import ReactBeforeSliderComponent from 'react-before-after-slider-component';
+import 'react-before-after-slider-component/dist/build.css';
 import { Text, Flex, Box } from "@rebass/emotion"
 import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
@@ -72,10 +74,100 @@ const SecondPage = () => (
               }
             }
           }
+
+          before1: file(relativePath: { eq: "1-before.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          after1: file(relativePath: { eq: "1-after.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+
+          before2: file(relativePath: { eq: "2-before.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          after2: file(relativePath: { eq: "2-after.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+
+          before3: file(relativePath: { eq: "3-before.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          after3: file(relativePath: { eq: "3-after.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+
         }
       `}
       render={data => (
         <>
+
+          <Row flexDirection={['column', 'row']}>
+            <Column width={1}>
+          <ReactBeforeSliderComponent
+            firstImage={{
+              imageUrl: data.after1.childImageSharp.fluid.src
+            }}
+            secondImage={{
+              imageUrl: data.before1.childImageSharp.fluid.src
+            }}
+              />
+              <Text as="p">Beispiel 1</Text>
+            </Column>
+          </Row>
+
+
+          <Row flexDirection={['column', 'row']}>
+            <Column width={1}>
+          <ReactBeforeSliderComponent
+            firstImage={{
+              imageUrl: data.after2.childImageSharp.fluid.src
+            }}
+            secondImage={{
+              imageUrl: data.before2.childImageSharp.fluid.src
+            }}
+              />
+              <Text as="p">Beispiel 2</Text>
+            </Column>
+          </Row>
+
+          <Row flexDirection={['column', 'row']}>
+            <Column width={1}>
+          <ReactBeforeSliderComponent
+            firstImage={{
+              imageUrl: data.after3.childImageSharp.fluid.src
+            }}
+            secondImage={{
+              imageUrl: data.before3.childImageSharp.fluid.src
+            }}
+              />
+              <Text as="p">Beispiel 3</Text>
+            </Column>
+          </Row>
+
           <Row flexDirection={['column', 'row']}>
             <Column width={[1, 1/2]}>
               <Image
