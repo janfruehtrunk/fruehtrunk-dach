@@ -18,63 +18,6 @@ const SecondPage = () => (
     <StaticQuery
       query={graphql`
         query {
-          placeholderImage1: file(relativePath: { eq: "referenz-1.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage2: file(relativePath: { eq: "referenz-2.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage3: file(relativePath: { eq: "referenz-3.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage4: file(relativePath: { eq: "referenz-4.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage5: file(relativePath: { eq: "referenz-5.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage6: file(relativePath: { eq: "referenz-6.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage7: file(relativePath: { eq: "referenz-7.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          placeholderImage8: file(relativePath: { eq: "referenz-8.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-
           before1: file(relativePath: { eq: "1-before.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 600) {
@@ -89,7 +32,6 @@ const SecondPage = () => (
               }
             }
           }
-
           before2: file(relativePath: { eq: "2-before.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 600) {
@@ -104,7 +46,6 @@ const SecondPage = () => (
               }
             }
           }
-
           before3: file(relativePath: { eq: "3-before.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 600) {
@@ -119,7 +60,6 @@ const SecondPage = () => (
               }
             }
           }
-
         }
       `}
       render={data => (
@@ -165,69 +105,6 @@ const SecondPage = () => (
             }}
               />
               <Text as="p">Beispiel 3</Text>
-            </Column>
-          </Row>
-
-          <Row flexDirection={['column', 'row']}>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage1.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-              <Text as="p">Dachrinnenreinigung</Text>
-            </Column>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage2.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-              <Text as="p">Terassensanierung nach Wasserschaden</Text>
-            </Column>
-          </Row>
-          <Row flexDirection={['column', 'row']}>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage3.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-              <Text as="p">Alter Bestand</Text>
-            </Column>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage4.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-              <Text as="p">Organisieren und Einbauen von alten Dachziegeln</Text>
-            </Column>
-          </Row>
-          <Row flexDirection={['column', 'row']}>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage5.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-            </Column>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage6.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-            </Column>
-          </Row>
-          <Row flexDirection={['column', 'row']} mt={4}>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage7.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-              <Text as="p">Dachsanierung Wohngebäude mit Wiener Norma</Text>
-            </Column>
-            <Column width={[1, 1/2]}>
-              <Image
-                fluid={data.placeholderImage8.childImageSharp.fluid}
-                maxWidth="400px"
-              />
-              <Text as="p">Dachsanierung Presshaus mit Taschen gerundet</Text>
             </Column>
           </Row>
         </>
