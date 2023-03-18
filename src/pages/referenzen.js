@@ -75,7 +75,7 @@ const SecondPage = () => (
               imageUrl: data.before1.childImageSharp.fluid.src
             }}
               />
-              <Text as="p">Beispiel 1</Text>
+              <Text as="p">Dachsanierung Wohnhaus</Text>
             </Column>
           </Row>
 
@@ -90,7 +90,7 @@ const SecondPage = () => (
               imageUrl: data.before2.childImageSharp.fluid.src
             }}
               />
-              <Text as="p">Beispiel 2</Text>
+              <Text as="p">Neudeckung Kleingartenhaus</Text>
             </Column>
           </Row>
 
@@ -104,7 +104,7 @@ const SecondPage = () => (
               imageUrl: data.before3.childImageSharp.fluid.src
             }}
               />
-              <Text as="p">Beispiel 3</Text>
+              <Text as="p">Dachsanierung Presshaus</Text>
             </Column>
           </Row>
         </>
