@@ -1,5 +1,13 @@
-import { defineConfig, defineSchema } from 'gspenst'
+import { defineConfig, defineSchema } from "gspenst"
 
-export default defineConfig({
-  schema: defineSchema(),
-})
+export default {
+  ...defineConfig({
+    schema: defineSchema(),
+  }),
+  media: {
+    tina: {
+      publicFolder: "public",
+      mediaRoot: "uploads",
+    },
+  },
+}

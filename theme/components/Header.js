@@ -9,7 +9,7 @@ import MenuItem from "./MenuItem"
 import Instagram from "./Instagram"
 import Link from "./Link"
 
-const Header = (props) => (
+const Header = props => (
   <Dach {...props}>
     <Position position="relative" as="header">
       <Position position="absolute" top={0} left={0} bottom={0} right={0}>
@@ -37,11 +37,7 @@ const Header = (props) => (
             <MenuItem href="/kontakt/">Kontakt</MenuItem>
           </Menu>
         </Dach>
-        <Logo
-          mb={4}
-          alignSelf={["center", "flex-start"]}
-          order={[1, 2]}
-        />
+        <Logo mb={4} alignSelf={["center", "flex-start"]} order={[1, 2]} />
         <Link
           as="a"
           href="https://www.instagram.com/vonobengesehen/"
@@ -49,6 +45,7 @@ const Header = (props) => (
           alignSelf="flex-end"
           mt="auto"
           order={3}
+          style={{ textDecoration: "none" }}
         >
           <Text color="white" fontSize={[0, 1]} as={Flex} alignItems="center">
             <Instagram width={[20, 24]} pr={1} /> vonobengesehen

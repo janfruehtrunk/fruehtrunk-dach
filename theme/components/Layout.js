@@ -15,11 +15,7 @@ import Container from "./Container"
 import Header from "./Header"
 import Footer from "./Footer"
 
-const Layout = ({
-  children,
-  isSubPage = true,
-  padding = 3,
-}) => {
+const Layout = ({ children, isSubPage = true }) => {
   const { state } = useStore()
   const { resources } = selectData(state)
   const resource = resources.at(0)
@@ -30,7 +26,8 @@ const Layout = ({
         <title>{title}</title>
       </Head>
       <Header flex={!isSubPage && "1 0 auto"} />
-      <Box as="main" flex={isSubPage && "1 0 auto"} p={padding}>
+      <Box as="main" flex={isSubPage && "1 0 auto"} p={isSubPage ? 3 : 0}>
+        {isSubPage ? <h1>{resource.title}</h1> : null}
         {children}
       </Box>
       <Footer />
